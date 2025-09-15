@@ -34,13 +34,18 @@ Este projeto consiste em uma **API para organização de partidas e comunidade G
 ### 1. Criar ambiente virtual (`venv`)
 ```
 python -m venv venv
-
+```
+### 2. Ativar o ambiente virtual
+```
 .\venv\Scripts\Activate
-
+```
+### 3. Instalar Dependências
+```
 pip install fastapi uvicorn pydantic[email]
-
+```
+### 4. Rodar o Servidor
+```
 uvicorn main:app --reload
-
 ```
 
 ## 📚 Documentação Interativa
@@ -51,8 +56,3 @@ http://127.0.0.1:8000/docs
 ### Redoc:
 ```
 http://127.0.0.1:8000/redoc
-
-
-
-
-
