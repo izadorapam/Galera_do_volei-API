@@ -35,6 +35,24 @@ Este projeto consiste em uma **API para organização de partidas e comunidade G
 ```
 python -m venv venv
 
+.\venv\Scripts\Activate
 
-```bash
-python -m venv venv
+pip install fastapi uvicorn pydantic[email]
+
+uvicorn main:app --reload
+
+```
+
+## 📚 Documentação Interativa
+### Swagger UI:
+```
+http://127.0.0.1:8000/docs
+```
+### Redoc:
+```
+http://127.0.0.1:8000/redoc
+
+
+
+
+
