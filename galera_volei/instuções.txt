@@ -1,0 +1,12 @@
+Como rodar o main.app?
+1. Com o Ambiente venv ja criado...
+.\venv\Scripts\Activate
+
+2. instalar dependencias caso nao tenha realizado
+pip install fastapi uvicorn pydantic[email]
+
+3. rodar o servidor main.app
+uvicorn main:app --reload
+
+4. pega o http e coloca /docs no final , ou..
+http..... /redoc
